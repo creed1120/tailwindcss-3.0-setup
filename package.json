@@ -1,0 +1,23 @@
+{
+  "name": "tailwindcss-3.0-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "TAILWIND_MODE=WATCH postcss tailwind.css -o ./layouts/css/styles.css --watch --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "browser-sync": "^2.27.9",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.43",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.50.1",
+    "sass-loader": "^12.6.0",
+    "tailwindcss": "^3.0.24"
+  }
+}
